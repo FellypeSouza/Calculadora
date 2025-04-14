@@ -12,6 +12,7 @@ export class AppComponent {
   resultado = '0';
 
   Inserir(valor:string):void{
+    //Valor inicial de resultado é 0, esse if serve para substituir o valor inicial pelo valor selecionado pelo usuario
     if (this.resultado == '0') {
       this.resultado = '';  
     }
@@ -36,7 +37,7 @@ export class AppComponent {
     
   }
   Sen(valor:string):void{
-    
+
   }
   Cos(valor:string):void{
 
