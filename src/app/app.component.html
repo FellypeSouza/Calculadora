@@ -1,4 +1,5 @@
 <main>
+  <h1>Calculadora em Angular + Typescript</h1>
   <section class="calculadora">
     <section class="resultado">
       <h1>{{resultado}}</h1>
@@ -11,7 +12,7 @@
       <button (click)="Inserir('7')">7</button>
       <button (click)="Inserir('8')">8</button>
       <button (click)="Inserir('9')">9</button>
-      <button class="especial" (click)="Inserir('*')">X</button>
+      <button class="especial" (click)="Inserir('*')">x</button>
       <button (click)="Inserir('4')">4</button>
       <button (click)="Inserir('5')">5</button>
       <button (click)="Inserir('6')">6</button>
@@ -27,8 +28,8 @@
       <button class="botaoEscondido" (click)="Sen(resultado)">Sen</button>
       <button class="botaoEscondido" (click)="Cos(resultado)">Cos</button>
       <button class="botaoEscondido" (click)="Tan(resultado)">Tan</button>
-      <button class="botaoEscondido" (click)="Inserir('^')">x^y</button>
-      <button class="botaoEscondido">Lg</button>
+      <button class="botaoEscondido" (click)="Inserir('**')">x^y</button>
+      <button class="botaoEscondido" (click)="CalcularLogaritmo(resultado)">Lg</button>
       <button class="botaoEscondido" (click)="Inserir('(')">(</button>
       <button class="botaoEscondido" (click)="Inserir(')')">)</button>
       <button class="botaoEscondido" (click)="CalcularRaizQuadrada(resultado)">√</button>
