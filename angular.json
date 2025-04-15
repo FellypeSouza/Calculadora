@@ -35,6 +35,7 @@
               "src/styles.scss"
             ],
             "scripts": [],
+            "baseHref": "/Calculadora/",
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
